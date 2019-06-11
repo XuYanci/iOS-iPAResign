@@ -1,0 +1,4 @@
+# The bundle identifier of your app
+app_identifier com.xuyanci.appid
+# Your Apple email address
+apple_id grandy.wind@gmail.com  
