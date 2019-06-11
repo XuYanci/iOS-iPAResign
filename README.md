@@ -1,11 +1,14 @@
 前言:
+    
     该Shell主要实现自动注册设备、自动拉取配置证书、代码签名、发布到Fir等功能。
 
 操作说明:
-sh ipa_resign.sh [udid] [ipa_input_path] [ipa_output_path] 
+    
+    sh ipa_resign.sh [udid] [ipa_input_path] [ipa_output_path] 
 
 例子:
-sh ipa_resign.sh UUID ./iPA_Source.ipa  ./iPA_Out.ipa
+
+    sh ipa_resign.sh UUID ./iPA_Source.ipa  ./iPA_Out.ipa
 
 文件目录:
 - ipa_resign.sh 执行脚本文件
@@ -38,18 +41,30 @@ sh ipa_resign.sh UUID ./iPA_Source.ipa  ./iPA_Out.ipa
 参考资料:
 
 通过Safari浏览器获取iOS设备UDID(设备唯一标识符)
+
 http://www.skyfox.org/safari-ios-device-udid.html
 
-iOS各种证书之间详解关于Certificate、Provisioning Profile、App ID的介绍及其之间的关系http://www.zhongruitech.com/645998114.html
+
+iOS各种证书之间详解关于Certificate、Provisioning Profile、App ID的介绍及其之间的关系
+
+http://www.zhongruitech.com/645998114.html
+
 
 代码签名探析
+
 https://objccn.io/issue-17-2/
 
+
 iOS逆向必备绝技之ipa重签名
+
 https://www.yangshebing.com/2018/01/06/iOS%E9%80%86%E5%90%91%E5%BF%85%E5%A4%87%E7%BB%9D%E6%8A%80%E4%B9%8Bipa%E9%87%8D%E7%AD%BE%E5%90%8D/
 
+
 Jenkins + fastlane iOS 双重认证 自动更新配置文件配置Appfile使用sigh最后
+
 https://cloud.tencent.com/developer/article/1353444
 
+
 FIR发布应用
+
 https://fir.im/docs/publish
